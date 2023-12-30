@@ -1,6 +1,6 @@
 Route102_Text_CalvinIntro:
-	.string "If you have POKéMON with you, then\n"
-	.string "you're an official POKéMON TRAINER!\l"
+	.string "If you are reading this then\n"
+	.string "bob's edit went through!\l"
 	.string "You can't say no to my challenge!$"
 
 Route102_Text_CalvinDefeated:
@@ -9,7 +9,7 @@ Route102_Text_CalvinDefeated:
 
 Route102_Text_CalvinPostBattle:
 	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "bob edited this as well!$"
 
 Route102_Text_CalvinRegister:
 	.string "I've been working hard at this since\n"
