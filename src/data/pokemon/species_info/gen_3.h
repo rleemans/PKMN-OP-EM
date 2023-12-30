@@ -429,12 +429,12 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 
     [SPECIES_MARSHTOMP] =
     {
-        .baseHP        = 70,
+        .baseHP        = 75,
         .baseAttack    = 85,
-        .baseDefense   = 70,
+        .baseDefense   = 72,
         .baseSpeed     = 50,
         .baseSpAttack  = 60,
-        .baseSpDefense = 70,
+        .baseSpDefense = 72,
         .types = { TYPE_WATER, TYPE_GROUND },
         .catchRate = 45,
         .expYield = 142,
@@ -444,7 +444,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_WATER_1 },
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_DAMP },
+        .abilities = { ABILITY_REGENERATOR, ABILITY_NONE, ABILITY_DAMP },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Marshtomp"),
         .cryId = CRY_MARSHTOMP,
@@ -496,14 +496,14 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_SWAMPERT] =
     {
         SWAMPERT_MISC_INFO,
-        .baseHP        = 100,
+        .baseHP        = 110,
         .baseAttack    = 110,
-        .baseDefense   = 90,
+        .baseDefense   = 95,
         .baseSpeed     = 60,
         .baseSpAttack  = 85,
-        .baseSpDefense = 90,
+        .baseSpDefense = 95,
         .expYield = 241,
-        .abilities = { ABILITY_TORRENT, ABILITY_NONE, ABILITY_DAMP },
+        .abilities = { ABILITY_REGENERATOR, ABILITY_NONE, ABILITY_DAMP },
         .cryId = CRY_SWAMPERT,
         .height = 15,
         .weight = 819,

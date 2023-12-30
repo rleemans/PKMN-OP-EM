@@ -54,13 +54,13 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 
     [SPECIES_BAYLEEF] =
     {
-        .baseHP        = 60,
+        .baseHP        = 70,
         .baseAttack    = 62,
         .baseDefense   = 80,
         .baseSpeed     = 60,
-        .baseSpAttack  = 63,
-        .baseSpDefense = 80,
-        .types = { TYPE_GRASS, TYPE_GRASS },
+        .baseSpAttack  = 73,
+        .baseSpDefense = 85,
+        .types = { TYPE_GRASS, TYPE_FAIRY },
         .catchRate = 45,
         .expYield = 142,
         .evYield_Defense = 1,
@@ -103,13 +103,13 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 
     [SPECIES_MEGANIUM] =
     {
-        .baseHP        = 80,
+        .baseHP        = 100,
         .baseAttack    = 82,
         .baseDefense   = 100,
         .baseSpeed     = 80,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 100,
-        .types = { TYPE_GRASS, TYPE_GRASS },
+        .baseSpAttack  = 103,
+        .baseSpDefense = 110,
+        .types = { TYPE_GRASS, TYPE_FAIRY },
         .catchRate = 45,
         .expYield = 236,
         .evYield_Defense = 1,
@@ -119,7 +119,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = { EGG_GROUP_MONSTER, EGG_GROUP_GRASS },
-        .abilities = { ABILITY_OVERGROW, ABILITY_NONE, ABILITY_LEAF_GUARD },
+        .abilities = { ABILITY_MISTY_SURGE, ABILITY_NONE, ABILITY_LEAF_GUARD },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Meganium"),
         .cryId = CRY_MEGANIUM,
