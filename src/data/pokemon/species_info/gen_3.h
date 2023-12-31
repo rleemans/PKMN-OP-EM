@@ -496,41 +496,6 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_SWAMPERT] =
     {
         SWAMPERT_MISC_INFO,
-        .baseHP        = 110,
-        .baseAttack    = 110,
-        .baseDefense   = 95,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 85,
-        .baseSpDefense = 95,
-        .types = { TYPE_WATER, TYPE_GROUND },
-        .expYield = 241,
-        .abilities = { ABILITY_REGENERATOR, ABILITY_NONE, ABILITY_DAMP },
-        .cryId = CRY_SWAMPERT,
-        .height = 15,
-        .weight = 819,
-        .description = COMPOUND_STRING(
-            "If it senses the approach of a storm and\n"
-            "a tidal wave, it protects its seaside nest\n"
-            "by piling up boulders. It swims as fast as\n"
-            "a jet ski."),
-        .pokemonScale = 256,
-        .pokemonOffset = 0,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        FRONT_PIC(Swampert, 64, 56),
-        .frontPicYOffset = 6,
-        .frontAnimFrames = sAnims_Swampert,
-        .frontAnimId = ANIM_H_SHAKE,
-        BACK_PIC(Swampert, 64, 64),
-        .backPicYOffset = 6,
-        .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
-        PALETTES(Swampert),
-        ICON(Swampert, 0),
-    },
-
-    [SPECIES_SWAMPERT_MUD] =
-    {
-        SWAMPERT_MISC_INFO,
         .baseHP        = 90,
         .baseAttack    = 125,
         .baseDefense   = 95,
