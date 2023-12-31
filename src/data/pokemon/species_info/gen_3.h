@@ -472,7 +472,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Marshtomp, 0),
         .footprint = gMonFootprint_Marshtomp,
         LEARNSETS(Marshtomp),
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_SWAMPERT_FRESH},
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_SWAMPERT},
                                 {EVO_ITEM, ITEM_POTION, SPECIES_SWAMPERT_MUD}),
     },
 
@@ -493,7 +493,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .formSpeciesIdTable = sSwampertFormSpeciesIdTable,      \
         .formChangeTable = sSwampertFormChangeTable
 
-    [SPECIES_SWAMPERT_FRESH] =
+    [SPECIES_SWAMPERT] =
     {
         SWAMPERT_MISC_INFO,
         .baseHP        = 110,
