@@ -468,7 +468,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         BACK_PIC(Marshtomp, 64, 64),
         .backPicYOffset = 3,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        PALETTES(Mudkip),
+        PALETTES(Marshtomp),
         ICON(Marshtomp, 0),
         .footprint = gMonFootprint_Marshtomp,
         LEARNSETS(Marshtomp),
@@ -508,9 +508,9 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .height = 15,
         .weight = 819,
         .description = COMPOUND_STRING(
-            "The wilder variant of Swampert, can be found\n"
-            "near lakeside and in swamps. Stronger defense\n"
-            "than normal swampert, but less health. It's\n"
+            "The wilder variant of Swampert, found\n"
+            "near lakesides and in swamps.\n"
+            "strong defense, but weak health, it's\n"
             "slippery nature makes it very fast."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
@@ -523,7 +523,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         BACK_PIC(Swampert, 64, 64),
         .backPicYOffset = 6,
         .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
-        PALETTES(Hitmontop),
+        PALETTES(Mudkip),
         ICON(Swampert, 0),
     },
 
