@@ -523,7 +523,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         BACK_PIC(Swampert, 64, 64),
         .backPicYOffset = 6,
         .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
-        PALETTES(Swamper),
+        PALETTES(Swampert),
         ICON(Swampert, 0),
     },
 
