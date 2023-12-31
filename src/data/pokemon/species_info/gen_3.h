@@ -424,7 +424,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Mudkip, 0),
         .footprint = gMonFootprint_Mudkip,
         LEARNSETS(Mudkip),
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_MARSHTOMP}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 6, SPECIES_MARSHTOMP}),
     },
 
     [SPECIES_MARSHTOMP] =
@@ -472,8 +472,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Marshtomp, 0),
         .footprint = gMonFootprint_Marshtomp,
         LEARNSETS(Marshtomp),
-        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_SWAMPERT},
-                                {EVO_ITEM, ITEM_POTION, SPECIES_SWAMPERT_MUD}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_POTION, SPECIES_SWAMPERT_MUD}),
     },
 
 #define SWAMPERT_MISC_INFO                                      \
