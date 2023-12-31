@@ -468,7 +468,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         BACK_PIC(Marshtomp, 64, 64),
         .backPicYOffset = 3,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
-        PALETTES(Marshtomp),
+        PALETTES(Mudkip),
         ICON(Marshtomp, 0),
         .footprint = gMonFootprint_Marshtomp,
         LEARNSETS(Marshtomp),
@@ -523,7 +523,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         BACK_PIC(Swampert, 64, 64),
         .backPicYOffset = 6,
         .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
-        PALETTES(Stunfisk),
+        PALETTES(Hitmontop),
         ICON(Swampert, 0),
     },
 
