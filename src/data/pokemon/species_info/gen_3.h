@@ -472,11 +472,11 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Marshtomp, 0),
         .footprint = gMonFootprint_Marshtomp,
         LEARNSETS(Marshtomp),
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SWAMPERT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 16, SPECIES_SWAMPERT_FRESH},
+                                {EVO_ITEM, ITEM_POTION, SPECIES_SWAMPERT_MUD}),
     },
 
 #define SWAMPERT_MISC_INFO                                      \
-        .types = { TYPE_WATER, TYPE_GROUND },                   \
         .catchRate = 45,                                        \
         .evYield_Attack = 3,                                    \
         .genderRatio = PERCENT_FEMALE(12.5),                    \
@@ -493,7 +493,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .formSpeciesIdTable = sSwampertFormSpeciesIdTable,      \
         .formChangeTable = sSwampertFormChangeTable
 
-    [SPECIES_SWAMPERT] =
+    [SPECIES_SWAMPERT_FRESH] =
     {
         SWAMPERT_MISC_INFO,
         .baseHP        = 110,
@@ -502,6 +502,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .baseSpeed     = 60,
         .baseSpAttack  = 85,
         .baseSpDefense = 95,
+        .types = { TYPE_WATER, TYPE_GROUND },
         .expYield = 241,
         .abilities = { ABILITY_REGENERATOR, ABILITY_NONE, ABILITY_DAMP },
         .cryId = CRY_SWAMPERT,
@@ -524,6 +525,41 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .backPicYOffset = 6,
         .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
         PALETTES(Swampert),
+        ICON(Swampert, 0),
+    },
+
+    [SPECIES_SWAMPERT_MUD] =
+    {
+        SWAMPERT_MISC_INFO,
+        .baseHP        = 90,
+        .baseAttack    = 125,
+        .baseDefense   = 95,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 95,
+        .types = { TYPE_GROUND, TYPE_WATER},
+        .expYield = 241,
+        .abilities = { ABILITY_DRIZZLE, ABILITY_SWIFT_SWIM, ABILITY_RUN_AWAY },
+        .cryId = CRY_SWAMPERT,
+        .height = 15,
+        .weight = 819,
+        .description = COMPOUND_STRING(
+            "The wilder variant of Swampert, can be found\n"
+            "near lakeside and in swamps. Stronger defense\n"
+            "than normal swampert, but less health. It's\n"
+            "slippery nature makes it very fast."),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        FRONT_PIC(Swampert, 64, 56),
+        .frontPicYOffset = 6,
+        .frontAnimFrames = sAnims_Swampert,
+        .frontAnimId = ANIM_H_SHAKE,
+        BACK_PIC(Swampert, 64, 64),
+        .backPicYOffset = 6,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_BLUE,
+        PALETTES(Sudowoodo),
         ICON(Swampert, 0),
     },
 
