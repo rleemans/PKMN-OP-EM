@@ -472,7 +472,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         ICON(Marshtomp, 0),
         .footprint = gMonFootprint_Marshtomp,
         LEARNSETS(Marshtomp),
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_POTION, SPECIES_SWAMPERT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 8, SPECIES_SWAMPERT}),
     },
 
 #define SWAMPERT_MISC_INFO                                      \
